@@ -1,0 +1,5 @@
+adapter_transformers
+Pillow
+Pillow
+streamlit
+transformers
