@@ -21,6 +21,7 @@ def main():
         
         st.write("Caption")
         st.success(caption)
+        return caption
 
 if __name__=="__main__":
     main()
