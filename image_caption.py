@@ -13,7 +13,7 @@ def main():
         input_img = Image.open(image_upload)
         st.image(input_img)
         processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
-        model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+        model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
         inputs = processor(images=input_img, return_tensors="pt")
         pixel_values = inputs.pixel_values
         generate_id = model.generate(pixel_values=pixel_values, max_length=50)
