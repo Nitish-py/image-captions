@@ -1,5 +1,5 @@
 adapter_transformers
 Pillow
-Pillow
+pytorch
 streamlit
 transformers
