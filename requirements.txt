@@ -1,5 +1,4 @@
-adapter_transformers
 Pillow
 torch
 streamlit
-transformers
+requests
