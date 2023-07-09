@@ -8,7 +8,7 @@ headers = {"Authorization": "Bearer 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"}
 
 def query(data):
     response = requests.post(API_URL, headers=headers, data=data)
-    return response.json
+    return response.content
 def main():
     st.set_page_config(page_title="Image Captioning and Title")
     st.header("Image captioning and Title")
